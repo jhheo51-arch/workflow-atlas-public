@@ -11,7 +11,10 @@ Codex와 Claude Code로 반복하는 작업의 기준을 한곳에 모았습니�
 
 저장소에서 원하는 `SKILL.md`를 열어 도구에 읽혀도 됩니다. 프로젝트에서 계속 쓰려면 스킬 폴더 전체를 Codex의 `.agents/skills/` 또는 Claude Code의 `.claude/skills/`에 복사한 뒤 새 세션에서 해당 스킬을 선택하세요. [Codex 스킬 경로](https://developers.openai.com/api/reference/cli), [Claude Code 스킬 안내](https://code.claude.com/docs/en/skills)
 
-예를 들어 `scope-the-work`로 “문의 양식을 짧게 만들어 주세요”를 검토하면, 어떤 항목에서 입력이 막히는지와 제출까지 확인할 조건을 먼저 정합니다. 수정 뒤 `check-the-delivery`로 모바일과 키보드에서 실제로 제출할 수 있는지 확인합니다.
+저장소를 열어 다음 요청을 복사해 시작할 수 있습니다.
+
+- **작업 전:** `skills/scope-the-work/SKILL.md를 읽고, 문의 양식을 줄일 때 변경 범위와 모바일 제출 완료 조건을 정리해 주세요.`
+- **작업 후:** `skills/check-the-delivery/SKILL.md를 읽고, 수정한 양식을 키보드와 모바일에서 열어 제출까지 확인한 결과를 적어 주세요.`
 
 ## 출처와 확인 범위
 
