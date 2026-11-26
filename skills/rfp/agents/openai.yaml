@@ -1,0 +1,4 @@
+interface:
+  display_name: "RFP 작성과 대응"
+  short_description: "요구사항, 제출 증빙, 업체 평가와 구축 후 검수 기준을 연결합니다"
+  default_prompt: "$rfp 스킬로 이 업무의 제안요청서를 작성하고, 요구사항별 증빙과 검수 기준을 표로 정리해 주세요."

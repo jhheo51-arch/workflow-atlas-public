@@ -1,0 +1,4 @@
+interface:
+  display_name: "1페이지 핵심 보고"
+  short_description: "업무 가설과 검증 결과를 한 장의 의사결정 보고서로 정리합니다"
+  default_prompt: "$one-page-brief 스킬로 이 자료의 결론, 검증 근거, 적용 범위와 다음 조치를 한 장에 정리해 주세요."

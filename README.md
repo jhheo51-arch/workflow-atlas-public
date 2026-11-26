@@ -1,11 +1,13 @@
 # Workflow Atlas 공개판
 
-Codex와 Claude Code로 반복하는 작업의 기준을 한곳에 모았습니다. 개발이나 문서 작업을 시작할 때 범위를 잡고, 전달하기 전에 실제 결과를 확인하는 두 가지 절차를 담았습니다.
+Codex와 Claude Code로 반복하는 작업의 기준을 한곳에 모았습니다. 업무 범위 정리, 결과 검증, 의사결정 보고와 제안요청서 작성에 쓰는 스킬을 담았습니다.
 
 | 스킬 | 언제 쓰나 | 남기는 결과 |
 | --- | --- | --- |
 | [작업 범위 정리](skills/scope-the-work/SKILL.md) | 요청이 넓거나 완료 조건이 모호할 때 | 바꿀 대상, 사용자가 할 수 있어야 하는 행동, 확인 방법 |
 | [결과 전달 전 검증](skills/check-the-delivery/SKILL.md) | 수정본이나 시제품을 전달하기 직전 | 확인한 동작, 확인 환경, 남은 제한 |
+| [1페이지 핵심 보고](skills/one-page-brief/SKILL.md) | 검증 결과를 한 장으로 보고하고 결정이 필요할 때 | 결론, 근거, 적용 범위와 다음 판단 조건 |
+| [RFP 작성과 대응](skills/rfp/SKILL.md) | 제안요청서를 작성하거나 접수한 요청에 대응할 때 | 요구사항과 증빙, 평가 및 검수표, [OptiMesh 가상 예시](skills/rfp/examples/optimesh-rfp-20261126-v1.md) |
 
 ## 사용 방법
 
@@ -15,4 +17,4 @@ Codex와 Claude Code로 반복하는 작업의 기준을 한곳에 모았습니�
 
 ## 출처와 확인 범위
 
-두 절차는 공개 공통 지침의 범위 정리와 구현 검증 항목을 독립적으로 읽을 수 있게 정리한 것입니다. 실행 파일이나 환경 설정 없이 문서로 제공하며, 두 파일의 스킬 형식을 검사했습니다. [공개 공통 지침](https://github.com/jhheo51-arch/jhheo51-arch/blob/main/AGENTS.md)
+범위 정리와 결과 검증은 공개 공통 지침에서 정리했습니다. 핵심 보고와 RFP는 기존 작업 사례를 바탕으로 공개 스킬의 방식을 참고했습니다. 출처와 적용 방식은 각 스킬에서 확인할 수 있습니다. [공개 공통 지침](https://github.com/jhheo51-arch/jhheo51-arch/blob/main/AGENTS.md)
